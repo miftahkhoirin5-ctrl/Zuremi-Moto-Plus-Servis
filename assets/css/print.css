@@ -1,0 +1,45 @@
+/* Print Stylesheet for Official Workshop Invoices */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+  }
+  .app-sidebar,
+  .app-header,
+  .btn,
+  .theme-toggle-btn,
+  .no-print {
+    display: none !important;
+  }
+  .app-layout {
+    display: block !important;
+  }
+  .app-main {
+    margin: 0 !important;
+    padding: 0 !important;
+    background: white !important;
+  }
+  .page-container {
+    padding: 0 !important;
+  }
+  .invoice-card {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  .custom-table th {
+    background-color: #f1f5f9 !important;
+    color: #000 !important;
+    border-bottom: 2px solid #333 !important;
+  }
+  .custom-table td {
+    background: transparent !important;
+    color: #000 !important;
+    border-bottom: 1px solid #ddd !important;
+  }
+}
+
